@@ -392,7 +392,7 @@ If you use this research assistant in your work, please cite:
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/research-assistant/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/research-assistant/discussions)
-- **Email**: your.email@example.com
+- **Email**: sharmakanishka.prf@gmail.com
 
 ---
 
