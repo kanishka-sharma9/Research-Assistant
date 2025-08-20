@@ -8,7 +8,7 @@ An autonomous multi-agent system for conducting comprehensive academic research 
 - **Multi-Source Academic Search**: Concurrent searches across ArXiv, Google Scholar, and web sources
 - **Intelligent Paper Ranking**: Advanced relevance scoring based on quality, recency, and citation metrics
 - **Research Gap Analysis**: Identifies unexplored areas and future research directions
-- **Interactive Mode (still has some bugs😅)**: Post-research Q&A with context-aware responses
+- **Interactive Mode (still has some issues 😅)**: Post-research Q&A with context-aware responses
 - **Comprehensive Planning**: Generates detailed 12-section research plans with methodology
 - **Error Resilient**: Built-in fallback mechanisms and retry logic at every stage
 - **Performance Optimized**: Asynchronous operations with intelligent caching
@@ -52,7 +52,7 @@ cd research-assistant
 
 2. Install dependencies:
 ```bash
-pip install -r requirements.txt
+uv pip install -r requirements.txt
 ```
 
 Or using uv:
@@ -63,7 +63,7 @@ uv sync
 3. Set up environment variables:
 ```bash
 export GROQ_API_KEY="your-groq-api-key"
-export TAVILY_API_KEY="your-tavily-api-key"  # Optional but enhances web search
+export TAVILY_API_KEY="your-tavily-api-key"
 ```
 
 ### Basic Usage
@@ -382,9 +382,9 @@ If you use this research assistant in your work, please cite:
 ```bibtex
 @software{research_assistant,
   title = {Research Assistant},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/research-assistant}
+  author = {Kanishka Sharma},
+  year = {2025},
+  url = {https://github.com/kanishka-sharma9/Research-Assistant}
 }
 ```
 
